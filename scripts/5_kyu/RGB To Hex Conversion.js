@@ -1,0 +1,1 @@
+const rgb=(r,g,b)=>{const isMore=(int)=>{int = int.toString(16);if(int[0]==="-"){return"00"}else if(int.length>2){return"FF"}return int.length>1?int:"0"+int};return`${isMore(r)}${isMore(g)}${isMore(b)}`.toUpperCase()}
